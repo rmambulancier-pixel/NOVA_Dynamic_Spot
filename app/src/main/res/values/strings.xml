@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NOVA Dynamic Spot</string>
+    <string name="notification_access_description">NOVA utilise l'accès aux notifications pour afficher les événements et contrôler les sessions média.</string>
+</resources>
