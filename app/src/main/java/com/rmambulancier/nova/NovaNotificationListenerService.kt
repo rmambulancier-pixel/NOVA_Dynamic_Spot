@@ -296,7 +296,8 @@ class NovaNotificationListenerService : NotificationListenerService() {
 
         override fun onMeasure(widthMeasureSpec: Int, heightMeasureSpec: Int) {
             val width = if (mediaMode) dp(270f) else dp(250f)
-            setMeasuredDimension(width, dp(if (mediaMode) 58f else 42f))
+            val height = dp(if (mediaMode) 58f else 42f)
+            setMeasuredDimension(width.roundToInt(), height.roundToInt())
         }
 
         override fun onDraw(canvas: Canvas) {

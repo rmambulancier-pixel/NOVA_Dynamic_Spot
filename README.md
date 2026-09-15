@@ -1,4 +1,4 @@
-# NOVA Dynamic Spot V2
+# NOVA Dynamic Spot V2.1
 
 Version personnelle Android 17 / Pixel. Implémentation indépendante, locale, sans compte, serveur, publicité, abonnement, analytics, Firebase ou Sentry.
 
