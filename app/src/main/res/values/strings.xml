@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NOVA Dynamic Spot</string>
+    <string name="notification_access_description">Accès aux notifications et aux informations média.</string>
+</resources>
