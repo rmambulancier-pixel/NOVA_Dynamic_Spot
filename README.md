@@ -1,7 +1,14 @@
-# NOVA Dynamic Spot V4
+# NOVA Dynamic Spot V5 — Android 17
 
-Android 17 / API 37. Native Android implementation, no Compose, no external UI libraries, no server, no ads, no analytics.
+Clean native Android build for Pixel / Android 17.
 
-Build: JDK 17 + Gradle 9.6.1 + AGP 9.4.0.
+- AGP 9.4.0
+- Gradle 9.6.0
+- JDK 17
+- compileSdk 37 / targetSdk 37
+- Java only: no Kotlin source, no Compose, no AndroidX UI dependencies
+- No custom Android resources: platform theme + literal labels only
+- GitHub Actions removes stale Kotlin/resource files from previous versions before building
+- Debug APK artifact only
 
-Features: overlay Dynamic Spot, media metadata/art/progress, play/pause, previous/next swipe, notifications, battery/charging, local settings.
+Features: notification listener, media sessions, album art, progress, play/pause, previous/next swipe, battery/charging events, local settings, overlay Dynamic Spot.

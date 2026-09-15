@@ -8,8 +8,8 @@ android {
         applicationId = "com.rmambulancier.nova"
         minSdk = 29
         targetSdk = 37
-        versionCode = 5
-        versionName = "4.0.0"
+        versionCode = 6
+        versionName = "5.0.0"
     }
 
     compileOptions {
