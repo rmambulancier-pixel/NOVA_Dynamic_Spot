@@ -1,17 +1,21 @@
-# NOVA Dynamic Spot
+# NOVA Dynamic Spot V2
 
-Version personnelle locale de Dynamic Spot pour Pixel / Android 17.
+Version personnelle Android 17 / Pixel. Implémentation indépendante, locale, sans compte, serveur, publicité, abonnement, analytics, Firebase ou Sentry.
 
-## V1
-- Overlay au-dessus des applications.
-- Batterie.
-- Notifications.
-- Détection média / musique via Notification Listener + MediaSession.
-- Animation d'entrée/sortie.
-- Interface de configuration Jetpack Compose.
-- Aucun compte, serveur, pub, abonnement, analytics, Firebase ou Sentry.
+## V2
+- Android 17 / API 37 / targetSdk 37
+- AGP 9.4 + Kotlin intégré AGP 9+
+- Compose BOM 2026.08.00
+- Dynamic Spot flottante compacte
+- Musique : titre, artiste, pochette, progression
+- Tap : lecture/pause
+- Glissement gauche/droite : précédent/suivant
+- Détection robuste des changements de sessions média
+- Notifications non persistantes en file d'événements anti-spam
+- Batterie, charge et batterie faible
+- Réglages locaux persistants
+- Gestion propre des callbacks et nettoyage du service
+- Compatible avec l'approche edge-to-edge moderne
 
-## Build
-Android 17 / API 37, AGP 9.4, Kotlin 2.3.21, Compose BOM 2026.08.00, Gradle 9.6.1, JDK 17.
-
-Le projet est une implémentation indépendante et ne contient pas le code ou les assets propriétaires de l'application de référence.
+## Build cloud
+GitHub Actions utilise JDK 17 + Gradle 9.6.1 et produit un APK debug.
