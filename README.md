@@ -1,16 +1,17 @@
 # NOVA Dynamic Spot
 
-Personal, local-first Dynamic Spot for Pixel / Android 17.
+Version personnelle locale de Dynamic Spot pour Pixel / Android 17.
 
-## Goals
-- Dynamic camera-area overlay inspired by modern phone live indicators.
-- Battery, notifications and media information.
-- No ads, subscriptions, analytics, Sentry, Firebase or backend.
-- Android 17 / API 37 target.
-- Minimal dependencies and Compose-first settings UI.
+## V1
+- Overlay au-dessus des applications.
+- Batterie.
+- Notifications.
+- Détection média / musique via Notification Listener + MediaSession.
+- Animation d'entrée/sortie.
+- Interface de configuration Jetpack Compose.
+- Aucun compte, serveur, pub, abonnement, analytics, Firebase ou Sentry.
 
-## Permissions
-- Display over other apps: required for the floating spot.
-- Notification access: required for live notification/media events.
+## Build
+Android 17 / API 37, AGP 9.4, Kotlin 2.3.21, Compose BOM 2026.08.00, Gradle 9.6.1, JDK 17.
 
-This is an independent implementation. It does not bundle or copy proprietary code/assets from the reference APK.
+Le projet est une implémentation indépendante et ne contient pas le code ou les assets propriétaires de l'application de référence.

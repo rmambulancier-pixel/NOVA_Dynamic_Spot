@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">NOVA Dynamic Spot</string>
-    <string name="notification_listener_description">NOVA uses notification access only to display selected live events in the Dynamic Spot.</string>
+    <string name="notification_access_description">Permet à NOVA d'afficher les notifications et les informations média dans la Dynamic Spot.</string>
 </resources>
